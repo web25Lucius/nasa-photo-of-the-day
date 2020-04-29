@@ -114,3 +114,15 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 
 
  ## Part II - [Advanced Styling Techniques](DAY_TWO_README.md)
+
+ Generate API Key
+Your API key for web25Lucius@gmail.com is:
+
+4Fzpq6RywH8RjUtir6EiJFcUTWJZuiCbUcLng44u
+You can start using this key to make web service requests. Simply pass your key in the URL when making a web request. Here's an example:
+
+https://api.nasa.gov/planetary/apod?api_key=4Fzpq6RywH8RjUtir6EiJFcUTWJZuiCbUcLng44u
+For additional support, please contact us. When contacting us, please tell us what API you're accessing and provide the following account details so we can quickly find you:
+
+Account Email: web25Lucius@gmail.com
+Account ID: c50984eb-c9a5-4901-8179-83bb5fcc27c9
