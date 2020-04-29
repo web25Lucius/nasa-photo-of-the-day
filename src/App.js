@@ -1,7 +1,5 @@
 import React from "react";
 import "./App.css";
-import PostCard from "./components/PostCard";
-import InfoCard from "./components/InfoCard";
 import NasaList from "./components/NasaList";
 
 function App() {
@@ -9,10 +7,7 @@ function App() {
     <div className="App">
       <p>
         <NasaList />
-        <PostCard />
-        <InfoCard />
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+       🚀
       </p>
     </div>
   );

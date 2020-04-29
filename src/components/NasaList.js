@@ -13,7 +13,7 @@ const NasaList = () => {
                 .get("https://api.nasa.gov/planetary/apod?api_key=4Fzpq6RywH8RjUtir6EiJFcUTWJZuiCbUcLng44u")
                 .then(response => setState(response.data)) 
                 .catch (error => console.log("dude...this is bad", error))
-                , [])
+                , []);
    
             return(
                 <div>
