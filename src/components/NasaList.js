@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import PostCard from "./PostCard";
+// import PostCard from "./PostCard";
 import InfoCard from "./InfoCard"
 
 
@@ -15,11 +15,11 @@ const NasaList = () => {
                 .catch (error => console.log("dude...this is bad", error))
                 , []);
    
-            return(
-                <div>
-                <PostCard src ={state.hdurl} title={state.title}/>
-                <InfoCard title={state.title} date={state.date} explanation={state.explanation} />
-                </div>
+    return(
+        <div>
+        {/* <PostCard src ={state.hdurl} title={state.title}/> */}
+        <InfoCard src ={state.hdurl} title={state.title} date={state.date} explanation={state.explanation} />
+        </div>
         
             );
      }
